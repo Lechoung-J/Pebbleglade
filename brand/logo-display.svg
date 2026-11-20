@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="328 184 624 432" width="624" height="432" role="img" aria-label="Pebbleglade display logo"><defs>
+    
+    <linearGradient id="full-color" gradientUnits="userSpaceOnUse" x1="538" y1="400" x2="946" y2="400">
+      <stop offset="0" stop-color="#B8B0D8" />
+      <stop offset=".18" stop-color="#AB97E4" />
+      <stop offset=".36" stop-color="#9D7FFF" />
+      <stop offset=".59" stop-color="#784BDD" />
+      <stop offset=".80" stop-color="#572BBC" />
+      <stop offset="1" stop-color="#32116F" />
+    </linearGradient>
+    <linearGradient id="half-color" gradientUnits="userSpaceOnUse" x1="328" y1="400" x2="526" y2="400">
+      <stop offset="0" stop-color="#B8B0D8" />
+      <stop offset=".27" stop-color="#9D7FFF" />
+      <stop offset=".57" stop-color="#7D4DE1" />
+      <stop offset=".82" stop-color="#552ABF" />
+      <stop offset="1" stop-color="#32116F" />
+    </linearGradient>
+    <linearGradient id="quarter-color" gradientUnits="userSpaceOnUse" x1="252" y1="400" x2="318" y2="400">
+      <stop offset="0" stop-color="#B8B0D8" />
+      <stop offset=".33" stop-color="#9D7FFF" />
+      <stop offset=".72" stop-color="#7950D5" />
+      <stop offset="1" stop-color="#452095" />
+    </linearGradient>
+    
+    <filter id="half-edge-softness" filterUnits="userSpaceOnUse" x="200" y="120" width="420" height="560" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="20" />
+    </filter>
+    <filter id="quarter-edge-softness" filterUnits="userSpaceOnUse" x="180" y="180" width="180" height="440" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="11" />
+    </filter>
+    <mask id="half-feather" maskUnits="userSpaceOnUse" x="300" y="160" width="300" height="480" style="mask-type:alpha">
+      
+      <path d="M200 160 H548 L526 202 Q402 400 526 598 L548 640 H200 Z" fill="white" filter="url(#half-edge-softness)" />
+    </mask>
+    <mask id="quarter-feather" maskUnits="userSpaceOnUse" x="240" y="190" width="120" height="420" style="mask-type:alpha">
+      
+      <path d="M180 200 H334 L318 255 Q242 400 318 545 L334 600 H180 Z" fill="white" filter="url(#quarter-edge-softness)" />
+    </mask>
+    <filter id="surface-softness" filterUnits="userSpaceOnUse" x="240" y="188" width="720" height="424" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="1.15" />
+    </filter>
+    <radialGradient id="volume-shade" cx=".30" cy=".48" r=".76">
+      <stop offset=".40" stop-color="black" stop-opacity="0" />
+      <stop offset="1" stop-color="black" stop-opacity=".12" />
+    </radialGradient>
+  </defs>
+  <g filter="url(#surface-softness)">
+    
+    <g id="quarter-surface" transform="translate(88 0)">
+      <circle cx="444" cy="400" r="192" mask="url(#quarter-feather)" fill="url(#quarter-color)" />
+    </g>
+    
+    <g id="half-surface" transform="translate(56 0)">
+      <circle cx="526" cy="400" r="198" fill="url(#half-color)" mask="url(#half-feather)" />
+    </g>
+    
+    <circle cx="742" cy="400" r="204" fill="url(#full-color)" />
+    <circle cx="742" cy="400" r="204" fill="url(#volume-shade)" />
+  </g>
+</svg>

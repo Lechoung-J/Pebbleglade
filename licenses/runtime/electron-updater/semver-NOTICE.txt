@@ -1,0 +1,3 @@
+Source: node_modules/electron-updater/node_modules/semver/README.md:91-91
+
+Copyright Isaac Z. Schlueter

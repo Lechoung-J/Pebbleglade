@@ -1,0 +1,19 @@
+# Distribution-only tree: no source, development state, or local data.
+.DS_Store
+*.log
+*.jsonl
+.env
+.env.*
+node_modules/
+app/
+src/
+/bridge/
+private/
+.delegate/
+.worktrees/
+.refcanvas/
+*.pebb
+*.map
+*.zip
+*.dmg
+*.app/

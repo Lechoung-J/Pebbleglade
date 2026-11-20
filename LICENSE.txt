@@ -1,0 +1,30 @@
+Pebbleglade 免费使用条款
+
+Copyright (c) 2026 Pebbleglade. All rights reserved for proprietary components.
+
+1. 免费使用
+你可以免费安装和使用 Pebbleglade，包括个人与工作场景。
+本条款未要求订阅或购买使用许可。
+
+2. 闭源与权利保留
+Pebbleglade 以闭源方式提供专有部分。
+本条款未授予 Pebbleglade 专有源码的获取、修改、再许可或再发行权利。
+商标、产品名称和品牌图形的权利另行保留。
+
+3. 你的素材
+你保留对自己导入、创建或保存的素材所享有的权利。
+你应确认自己有权使用和分享相关素材。
+
+4. 第三方组件
+Pebbleglade 基于 Kanvaz（MIT）并使用其他第三方组件。
+这些组件的版权、原许可和许可授予的权利继续有效。
+本条款不取代、不限制它们原有的许可。
+完整文本见 THIRD_PARTY_NOTICES.md 与 licenses 目录。
+
+5. 按现状提供
+本软件按现状提供，不附带适用法律要求之外的担保。
+请为重要画布保留备份。
+在适用法律允许的范围内，提供方不承担使用本软件产生的间接损失责任。
+
+Third-party licenses prevail for their respective components.
+This product's proprietary components are not offered under an open-source license.
