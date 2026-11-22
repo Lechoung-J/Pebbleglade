@@ -1,8 +1,15 @@
-# 0.1.0-preview.3
+# 0.1.0-preview.4
 
-[下载与安装](DOWNLOAD_PREVIEW.md) · [GitHub Release](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.3)
+[下载与安装](DOWNLOAD_PREVIEW.md) · [GitHub Release](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.4)
 
-这是首个公开的 macOS Apple Silicon 预览版。
+本版改进图片复制与粘贴的交互。
+
+## 本版调整
+
+- ⌘C 或右键「复制图片」写入系统剪贴板，可粘贴到其他支持图片的应用。
+- 复制不在画布增加图片，⌘V 或右键「粘贴图片」才会新增。
+- 原 ⌘D 操作明确称为「创建副本」。
+- 更新页提供手动下载入口，系统签名校验失败时可前往安装。
 
 ## 当前功能
 
@@ -23,7 +30,7 @@ DMG 与 ZIP 中的应用文件一致。
 
 当前仅发布 Apple Silicon macOS 版本。
 采用 ad-hoc 本地签名，尚未完成 Developer ID 签名和 Apple 公证。
-建议手动下载更新，正式签名版本之间的自动替换仍待验收。
+建议手动下载更新，当前本地签名预览建议手动替换，完整自动更新需要稳定的应用签名。
 
 公开展示图使用合成示例素材。
 本仓库用于介绍和分发，专有源码在私有仓库管理。
