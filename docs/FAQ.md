@@ -39,11 +39,13 @@ AIGC 和视觉创作者，可以用它整理氛围、光线、材质和构图。
 
 ## 现在可以下载吗？
 
-可以下载 [macOS Apple Silicon 预览版](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.4)。
+可以下载 [macOS Apple Silicon 预览版](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.5)。
 它适用于 M 系列 Mac，目前为本地签名，尚未完成 Apple 公证。
 安装方式和已知范围见 [下载说明](DOWNLOAD_PREVIEW.md)。
 
 ## 如何更新？
 
-预览版目前建议从 Releases 下载新版，保存并退出旧版后替换安装。
-应用内已接入更新检查和下载流程，当前本地签名预览建议手动替换，完整自动更新需要稳定的应用签名。
+Preview 3 / 4 用户需先手动覆盖安装 Preview 5 一次。
+Preview 5 使用固定自签名证书，作为后续同证书更新的基线。
+同签名身份的原生替换和重启已在本机隔离测试通过。
+这不等同于 Apple 公证，首次下载仍可能显示系统提示。
