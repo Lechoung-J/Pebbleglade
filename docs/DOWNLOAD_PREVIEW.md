@@ -1,6 +1,6 @@
-# macOS 预览版 · 0.1.0-preview.5
+# macOS 预览版 · 0.1.0-preview.6
 
-[下载 Apple Silicon DMG](https://github.com/Lechoung-J/Pebbleglade/releases/download/v0.1.0-preview.5/Pebbleglade-0.1.0-preview.5-arm64.dmg) · [查看 Release](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.5)
+[下载 Apple Silicon DMG](https://github.com/Lechoung-J/Pebbleglade/releases/download/v0.1.0-preview.6/Pebbleglade-0.1.0-preview.6-arm64.dmg) · [查看 Release](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.6)
 
 ## 当前范围
 
@@ -48,10 +48,11 @@ Preview 3 / 4 用户需要先手动覆盖安装本版一次。
 保存并退出旧应用，把本版拖入 Applications 并选择替换即可。
 不用卸载，也不用删除画布、设置或本地数据。
 
-本版建立固定证书基线，后续同证书版本可使用应用内更新。
-本机已实测检查、下载、原生校验、保存后替换和重启。
-测试使用同一签名身份与独立测试标识，不影响当前安装版。
-跨机和后续公开版本的升级体验仍需继续验证。
+Preview 5 用户可直接在应用内检查、下载并保存后重启安装。
+本版沿用 Preview 5 的固定证书。
+已实测这两个版本的检查、下载、原生校验、保存后替换和重启。
+测试使用独立测试标识及回环更新源，当前安装版保持原样。
+跨机和不同系统的升级体验仍需继续验证。
 
 Release 同时附带更新 ZIP、blockmap、通道清单和 SHA-256 校验和。
 这些是下载和更新所需资料，日常安装只需 DMG 或 ZIP。
