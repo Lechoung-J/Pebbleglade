@@ -40,9 +40,10 @@ Pebbleglade 把这些判断留在同一张情绪板上。Agent 拿到的不只�
 
 ## 现在
 
-> **macOS 预览版已可下载：0.1.0-preview.6。**  
-> [下载 Apple Silicon（M 系列）DMG](https://github.com/Lechoung-J/Pebbleglade/releases/download/v0.1.0-preview.6/Pebbleglade-0.1.0-preview.6-arm64.dmg) · [发行说明与安装方式](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.6)  
-> 当前为本地签名预览，尚未完成 Apple 公证。Intel Mac、Windows 与 Linux 版本暂未发布。
+> **macOS 预览版：0.1.0-preview.7。**  
+> [下载 Apple Silicon（M 系列）DMG](https://github.com/Lechoung-J/Pebbleglade/releases/download/v0.1.0-preview.7/Pebbleglade-0.1.0-preview.7-arm64.dmg) · [发行说明与安装方式](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.7)  
+> 本版转用 Developer ID 签名，应用与 DMG 均已通过 Apple 公证并附加票据。  
+> 适用于 Apple Silicon Mac，macOS 12 或更新版本。Intel Mac、Windows 与 Linux 版本暂未发布。
 
 ## 资料
 

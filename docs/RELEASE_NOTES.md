@@ -1,4 +1,34 @@
-# 0.1.0-preview.6
+# 0.1.0-preview.7
+
+[下载与安装](DOWNLOAD_PREVIEW.md) · [GitHub Release](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.7)
+
+本版将 macOS 分发签名切换为 Developer ID。
+
+## 本版调整
+
+- 转用 Developer ID 签名。
+- 应用与 DMG 均已通过 Apple 公证并附加票据。
+- Preview 3–6 用户需手动覆盖安装一次，完成签名证书迁移。
+- 新 Mac 可直接下载安装，无需安装证书或关闭 Gatekeeper。
+
+## 验证状态
+
+应用与 DMG 的签名、公证票据及本机系统评估均已通过。
+最终 ZIP 已完成隔离启动、画布保存和 51 个 MCP 工具检查。
+跨机首次下载和安装体验仍待新 Mac 实测。
+Apple 公证不等同于 App Store 审核。
+
+## 当前范围
+
+适用于 Apple Silicon Mac（M 系列），macOS 12 或更新版本。
+Intel Mac、Windows 与 Linux 版本暂未发布。
+旧版内置更新器会拒绝跨证书更新，Preview 6 也需手动安装。
+保存并退出旧版，将新应用拖入 Applications 并选择替换。
+画布、设置和本地数据无需删除，重要画布请先备份。
+
+---
+
+## 0.1.0-preview.6（历史版本）
 
 [下载与安装](DOWNLOAD_PREVIEW.md) · [GitHub Release](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.6)
 

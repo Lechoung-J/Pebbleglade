@@ -39,14 +39,24 @@ AIGC 和视觉创作者，可以用它整理氛围、光线、材质和构图。
 
 ## 现在可以下载吗？
 
-可以下载 [macOS Apple Silicon 预览版](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.6)。
-它适用于 M 系列 Mac，目前为本地签名，尚未完成 Apple 公证。
+Preview 7 面向 Apple Silicon Mac（M 系列），需要 macOS 12 或更新版本。
+下载入口见 [macOS 预览版 Release](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.7)。
+本版转用 Developer ID 签名。
+应用与 DMG 均已通过 Apple 公证并附加票据。
+Apple 公证不等同于 App Store 审核。
 安装方式和已知范围见 [下载说明](DOWNLOAD_PREVIEW.md)。
 
 ## 如何更新？
 
-Preview 5 用户可在应用内检查并下载 Preview 6，再保存并重启安装。
-Preview 3 / 4 用户仍需先手动覆盖安装一次，可直接安装最新版。
-Preview 6 沿用 Preview 5 固定自签名证书。
-两个版本的原生替换和重启已在本机隔离测试通过。
-这不等同于 Apple 公证，首次下载仍可能显示系统提示。
+Preview 3–6 用户都需手动覆盖安装 Preview 7 一次。
+Preview 7 更换了签名证书，旧版内置更新器会拒绝跨证书更新。
+保存并退出旧版，把新应用拖入 Applications，选择替换即可。
+不用卸载，也不用删除画布、设置或本地数据。
+
+## 新 Mac 首次安装要做什么？
+
+下载并打开 DMG，把 Pebbleglade 拖入 Applications，再从那里启动。
+无需安装证书或关闭 Gatekeeper。
+macOS 可能询问是否打开从互联网下载的应用。
+确认应用名称和来源后，按系统提示打开即可。
+跨机首次安装体验仍待新 Mac 实测。

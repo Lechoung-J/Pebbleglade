@@ -1,6 +1,6 @@
-# macOS 预览版 · 0.1.0-preview.6
+# macOS 预览版 · 0.1.0-preview.7
 
-[下载 Apple Silicon DMG](https://github.com/Lechoung-J/Pebbleglade/releases/download/v0.1.0-preview.6/Pebbleglade-0.1.0-preview.6-arm64.dmg) · [查看 Release](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.6)
+[下载 Apple Silicon DMG](https://github.com/Lechoung-J/Pebbleglade/releases/download/v0.1.0-preview.7/Pebbleglade-0.1.0-preview.7-arm64.dmg) · [查看 Release](https://github.com/Lechoung-J/Pebbleglade/releases/tag/v0.1.0-preview.7)
 
 ## 当前范围
 
@@ -22,9 +22,14 @@ Intel Mac、Windows 和 Linux 版本暂未发布。
 也可解压 ZIP，将其中的应用放入 Applications。
 DMG 与 ZIP 包含同一版本，通常选一种安装方式即可。
 
-本预览采用固定自签名证书，尚无 Developer ID 签名和 Apple 公证。
-从网络下载后，macOS 可能显示验证提示。
-可按系统提供的打开选项操作；系统放行体验仍需跨机验证。
+本版转用 Developer ID 签名。
+应用与 DMG 均已通过 Apple 公证并附加票据。
+Apple 公证不等同于 App Store 审核。
+
+新 Mac 可直接下载安装，无需安装证书或关闭 Gatekeeper。
+首次打开时，macOS 仍可能询问是否打开从互联网下载的应用。
+确认应用名称和来源后，按系统提示打开即可。
+跨机首次安装体验仍待新 Mac 实测。
 
 ## Agent 与备注
 
@@ -44,15 +49,14 @@ Agent 可通过 MCP 读写同一份备注。
 
 ## 更新
 
-Preview 3 / 4 用户需要先手动覆盖安装本版一次。
+Preview 3–6 用户都需手动覆盖安装 Preview 7 一次。
+Preview 7 更换了签名证书。
+旧版内置更新器会拒绝这次跨证书更新，Preview 6 也需手动安装。
+
 保存并退出旧应用，把本版拖入 Applications 并选择替换即可。
 不用卸载，也不用删除画布、设置或本地数据。
-
-Preview 5 用户可直接在应用内检查、下载并保存后重启安装。
-本版沿用 Preview 5 的固定证书。
-已实测这两个版本的检查、下载、原生校验、保存后替换和重启。
-测试使用独立测试标识及回环更新源，当前安装版保持原样。
-跨机和不同系统的升级体验仍需继续验证。
+重要画布请先备份。
+跨机和不同系统的升级体验仍待验证。
 
 Release 同时附带更新 ZIP、blockmap、通道清单和 SHA-256 校验和。
 这些是下载和更新所需资料，日常安装只需 DMG 或 ZIP。
